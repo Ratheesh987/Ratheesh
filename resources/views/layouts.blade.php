@@ -43,7 +43,7 @@
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a href="" class="sidebar-link">
+                        <a href="{{ route('add_video') }}" class="sidebar-link">
                             <img src="{{asset('/assets')}}/images/icons/sidebar/user-management-light.svg" class="pe-2 sidebar-icon light-icon">
                             <img src="{{asset('/assets')}}/images/icons/sidebar/user-management-dark.svg" class="pe-2 sidebar-icon dark-icon">
                             Add video
@@ -52,10 +52,10 @@
                     
                     
                     <li class="sidebar-item">
-                        <a href="" class="sidebar-link">
+                        <a href="{{ route('all_videos')  }}" class="sidebar-link">
                             <img src="{{asset('/assets')}}/images/icons/sidebar/notification-light.svg" class="pe-2 sidebar-icon light-icon">
                             <img src="{{asset('/assets')}}/images/icons/sidebar/notification-dark.svg" class="pe-2 sidebar-icon dark-icon">
-                            wishlist
+                            All Videos
                         </a>
                     </li>
             
